@@ -7,6 +7,7 @@ if [ ! -d $STALKER/deploy ]; then
         unzip /tmp/ministra-5.6.1.zip -d /var/www/
         mv /var/www/stalker_portal-*/* /var/www/stalker_portal/
         rm -rf /var/www/stalker_portal-*
+        chmod +x ministra-install.sh
 fi
 
 if [ ! -s $STALKER/server/custom.ini ]; then
