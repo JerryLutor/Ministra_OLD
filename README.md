@@ -1,7 +1,8 @@
 Ministra Docker
+
 #Step 1
 
-curl -fsSL https://get.docker.com -o get-docker.sh sudo sh get-docker.sh apt-get install docker-compose #установить Docker Compose из официального репозитория Ubuntu.
+curl -fsSL https://get.docker.com -o get-docker.sh sudo sh get-docker.sh apt-get install docker-compose
 
 
 #Step 2
