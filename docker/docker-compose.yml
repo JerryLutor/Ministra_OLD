@@ -2,7 +2,7 @@ version: '2'
 
 services:
   portal:
-    image: sybdata/portal
+    image: marc1060/minstra
     ports:
       - "80:80"
     links:
