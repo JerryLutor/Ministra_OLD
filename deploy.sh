@@ -3,7 +3,7 @@
 STALKER="/var/www/stalker_portal"
 
 if [ ! -d $STALKER/deploy ]; then
-        wget -O /tmp/stalker.zip https://archive.org/download/ministra-5.6.1/ministra-5.6.1.zip        
+        wget -O /tmp/ministra-5.6.1.zip https://archive.org/download/ministra-5.6.1/ministra-5.6.1.zip        
         unzip /tmp/ministra-5.6.1.zip -d /var/www/
         mv /var/www/stalker_portal-*/* /var/www/stalker_portal/
         rm -rf /var/www/stalker_portal-*
