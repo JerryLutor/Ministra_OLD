@@ -10,7 +10,7 @@ if [ ! -d $STALKER/deploy ]; then
 fi
 
 if [ ! -s $STALKER/server/custom.ini ]; then
-        wget -O $STALKER/server/custom.ini https://raw.githubusercontent.com/marc10601060/Ministra/master/docker/stalker_custom.ini
+        wget -O $STALKER/server/custom.ini https://raw.githubusercontent.com/marc10601060/Ministra/main/docker/stalker_custom.ini
 fi
 
 sed -i '/\bmysql_tzinfo_to_sql\b/g' $STALKER/deploy/build.xml
