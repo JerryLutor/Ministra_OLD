@@ -1,4 +1,5 @@
 FROM ubuntu:xenial
+RUN apt-get update
 RUN apt-get -y -u install npm
 RUN npm install -g npm@2.15.11	
 RUN npm config set strict-ssl false
