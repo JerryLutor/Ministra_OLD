@@ -1,6 +1,6 @@
 FROM ubuntu:xenial
-RUN sudo apt-get -y -u install npm
-RUN sudo npm install -g npm@2.15.11	
+RUN apt-get -y -u install npm
+RUN npm install -g npm@2.15.11	
 RUN npm config set strict-ssl false
 RUN ln -s /usr/bin/nodejs /usr/bin/node
 ADD deploy.sh /opt/deploy.sh
