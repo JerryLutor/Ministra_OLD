@@ -1,4 +1,4 @@
-FROM klyushkov/stalker_env:latest
+FROM ubuntu:xenial
 
 RUN npm config set strict-ssl false
 RUN npm install -g npm@2.15.11	
