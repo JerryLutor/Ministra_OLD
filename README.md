@@ -22,7 +22,7 @@ docker-compose up -d
 
 #Deploy Stalker to container & build
 
-docker exec -it stalker_portal_1 /opt/deploy.sh
+docker exec -it stalker_portal_1 /opt/stalker/deploy.sh
 
 
 #Visit URL
